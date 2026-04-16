@@ -1,0 +1,96 @@
+/* ================= STYLE.CSS (UPDATED WITH SEO + GALLERY) ================= */
+body {font-family: Arial; margin:0; line-height:1.6;}
+header {background:#1a1a1a; color:#fff; padding:15px; text-align:center;}
+nav a {color:#fff; margin:10px; text-decoration:none; font-weight:bold;}
+.hero {background:#333; color:#fff; padding:80px 20px; text-align:center;}
+.section {padding:40px; max-width:1100px; margin:auto;}
+.btn {background:#f39c12; padding:10px 20px; color:#fff; text-decoration:none; border:none; border-radius:5px;}
+footer {background:#1a1a1a; color:#fff; text-align:center; padding:20px;}
+.gallery {display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:15px;}
+.gallery img {width:100%; border-radius:10px;}
+
+/* ================= HOME PAGE (index.html) WITH SEO ================= */
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Harti Construction Ltd - Experts in new builds, extensions, renovation and refurbishment in the UK.">
+<meta name="keywords" content="construction UK, builders, home extension, renovation, refurbishment, new builds">
+<title>Harti Construction Ltd | Builders UK</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>HARTI CONSTRUCTION LTD</h1>
+<nav>
+<a href="index.html">Home</a>
+<a href="about.html">About</a>
+<a href="services.html">Services</a>
+<a href="gallery.html">Gallery</a>
+<a href="quote.html">Free Quote</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+<h2>Trusted Builders in the UK</h2>
+<p>New Builds | Extensions | Renovation | Refurbishment</p>
+<a class="btn" href="quote.html">Get Free Quote</a>
+</section>
+
+<section class="section">
+<h2>Welcome to Harti Construction Ltd</h2>
+<p>Professional construction company specialising in residential and commercial building projects across the UK.</p>
+</section>
+
+<footer>
+<p>© 2026 Harti Construction Ltd</p>
+</footer>
+</body>
+</html>
+
+/* ================= GALLERY PAGE ================= */
+<!DOCTYPE html>
+<html>
+<head>
+<title>Project Gallery</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><h1>Our Work</h1></header>
+<section class="section">
+<h2>Project Gallery</h2>
+<div class="gallery">
+<img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e">
+<img src="https://images.unsplash.com/photo-1487958449943-2429e8be8625">
+<img src="https://images.unsplash.com/photo-1505691723518-36a5ac3be353">
+<img src="https://images.unsplash.com/photo-1493809842364-78817add7ffb">
+</div>
+</section>
+</body>
+</html>
+
+/* ================= CONTACT PAGE (SEO BOOST) ================= */
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Harti Construction</title>
+<meta name="description" content="Contact Harti Construction Ltd for free quotes on new builds, extensions and renovation projects.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><h1>Contact Us</h1></header>
+<section class="section">
+<p>Email: info@harticonstruction.ltd</p>
+<p>Phone: 07123 456789</p>
+<p>Serving Greater Manchester and across the UK</p>
+</section>
+</body>
+</html>
+
+/* ================= SEO BOOST TIPS ================= */
+// Add your business to Google Business Profile
+// Add real project photos to gallery
+// Ask customers for Google reviews
+// Use keywords: builders Manchester, home extension UK, renovation services
